@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: minmax(25vw, 1fr) minmax(100vw, 4fr);
     grid-template-rows: minmax(17vh, 1fr) minmax(100vh, 4fr);
-    border: 2px solid rgb(250, 181, 181);
     height: 100vh;
 }
 .container > div {
@@ -28,8 +27,8 @@
     gap: 20px;
 }
 
-.nav, 
-.nav-settings, 
+.sidebar-nav, 
+.sidebar-nav-settings, 
 .dash-logo {
     display: grid;
     grid-template-columns: 1fr 4fr;
