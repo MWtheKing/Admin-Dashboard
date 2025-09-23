@@ -285,9 +285,15 @@ input[type="search"] {
 .project-btns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 24px;
     justify-self: end;
     align-self: flex-end;
+}
+
+.project-btns button {
+    background-color: transparent;
+    border: none;
+    width: 24px;
 }
 
 .project-text h3, 
@@ -304,7 +310,7 @@ input[type="search"] {
     font-size: 0.9em;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
